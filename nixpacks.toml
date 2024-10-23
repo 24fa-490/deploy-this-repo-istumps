@@ -1,16 +1,5 @@
 providers = ["node"]
 
 [phases.install]
-cmds = [
-  "npm install --omit=dev"
-]
 
-[phases.build]
-cmds = [
-  "npm run build"
-]
-
-[phases.start]
-cmds = [
-  "npm run start"
-]
+cmds = ["npm install -g corepack", "corepack enable", "corepack prepare pnpm@9.1.0 --activate", "pnpm install"]
