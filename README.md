@@ -26,6 +26,4 @@
 
 # Where am I deployed?
 
-https://deploy-this-repo-istumps.vercel.app/fromDB
-
-
+https://deploy-this-repo-istumps-git-main-istumps-projects.vercel.app/
